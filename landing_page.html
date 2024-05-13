@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="slick slider.css">
+  <link href="landing_page.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="nav-menu">
+    <h3 id="my-logo"><a href="#"><img class="logo"
+          src="https://img.freepik.com/free-vector/flat-vintage-travel-background_23-2148189177.jpg?w=740&t=st=1715495279~exp=1715495879~hmac=ddafbbd380f78c1fd1cc1bfd769d72291df84d2fec66d1e2c180e6447fd60a24"
+          alt="logo" srcset=""></a>Travel X</h3>
+    <ul>
+      <li class="btn"><a href="#home-section">Home</a></li>
+      <li class="btn"><a href="#about">About</a></li>
+      <!-- <li class="btn"><a href="#projects">Locations</a></li> -->
+      <li class="btn"><a href="#contact-us">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="background"></div>
+
+  <section id="home-section" class="home-section" background-image="\assets\home-section.jpg">
+    <div class="container container1">
+      <div class="content1">
+        <h1>Explore the World with Unbeatable Flight Deals!</h1>
+        <p>Embark on unforgettable journeys. Discover hidden gems, savor local flavors, and create memories that last a
+          lifetime. Welcome to your next adventure!</p>
+        <div class="ebutton">
+          <input type="text" placeholder="Search For Places">
+          <button class="btn-input">Get Started &gt;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="content2">
+        <h2>About Us</h2>
+        <p>Welcome to Unbeatable Flight Deals! 🌎✈️
+          <br>
+          At Unbeatable Flight Deals, we offer unmatched savings on carefully curated flight deals. Explore hidden gems,
+          savor local flavors, and create lasting memories. Let’s embark on your next adventure!
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="slickslider">
+    <div class="carosuel"><img src="\assets\Amsterdam-GettyImages-840603854.webp" 
+        alt=""></div>
+    <div class="carosuel"><img
+        src="\assets\banff-517747003-1494616292.jpg"
+        alt=""></div>
+    <div class="carosuel">
+      <img src="\assets\Barcelona_GettyImages-720036297.webp">
+    </div>
+    <div class="carosuel">
+      <img src="\assets\great-ocean-road-128394846-1494616348.jpg" alt="">
+    </div>
+    <div class="carosuel">
+      <img src="\assets\hbz-machu-ppichu-gettyimages-629556601-1505338681.jpg" alt="">
+    </div>
+    <div class="carosuel">
+      <img src="\assets\hbz-pamukkale-gettyimages-466129341-1505338681.jpg" alt="">
+    </div>
+    <div class="carosuel">
+      <img src="\assets\hbz-venice-gettyimages-489741024-1505338894.jpg" alt="">
+    </div>
+    <div class="carosuel">
+      <img src="\assets\japan-gettyimages-137098062.jpg" alt="">
+  </div>
+  </div>
+  <section id="contact-us" class="my-contact-form">
+    <h2>Contact Us</h2>
+    <p>For inquiries, feedback, or assistance, feel free to reach out to us. You can use the contact form below We’re
+      here to help!</p>
+    <form action="/submit-form" method="post">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email address">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your Name">
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" placeholder="Enter your address">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required placeholder="Limit your message"></textarea>
+      <input class="btn-input center" type="submit" value="SUBMIT">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; Landing Page. All rights reserved.</p>
+  </footer>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="slick slider.js"></script>
+</body>
+
+</html>
